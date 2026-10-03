@@ -1,0 +1,367 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+@font-face {
+  font-family: myFont;
+  src: url(/f/font/HitmarkerCondensed-Medium.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: myFont;
+  src: url(/f/font/HitmarkerCondensed-Bold.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: myFont;
+  src: url(/f/font/HitmarkerCondensed-Black.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: myFont;
+  src: url(/f/font/HitmarkerText-Regular.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+:root {
+  --primary-color: #c7a17a;
+  --background-color: #f9f5f0;
+  --dark-color: #151515;
+}
+body {
+  background-color: #151515;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border-style: none;
+  list-style: none;
+}
+
+p {
+  color: #ffffff;
+}
+
+header {
+  margin: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: hsl(0, 0%, 0%);
+}
+
+.logo img {
+  width: 100%;
+  max-width: 70px;
+}
+
+.titulo h1 {
+  font-family: "Hitmarker Condensed Black", Arial;
+  color: #f9f5f0;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+nav {
+  margin: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.enlaces {
+  margin-top: 5px;
+}
+
+.titulo2 h2 {
+  font-family: "Hitmarker Condensed Black", Arial;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.enlaces a {
+  font-family: "Hitmarker Text Regular", Arial;
+  color: #ffffff;
+  padding: 1.2rem;
+}
+
+.call img {
+  width: 100%;
+  max-width: 300px;
+  margin-top: 25px;
+}
+
+.info img {
+  width: 100%;
+  max-width: 400px;
+}
+
+span {
+  color: #ffffff;
+}
+
+.info {
+  background: linear-gradient(100deg, #00000222, #00000222), url("/img/6.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  margin-top: 10px;
+}
+
+.info p {
+  font-family: "Hitmarker Text Regular", Arial;
+  width: 600px;
+  font-size: 15px;
+}
+
+.info span {
+  margin-top: 100px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 50px;
+}
+
+.info2 {
+  margin-left: 30px;
+  display: flex;
+}
+
+.imagen1 img {
+  width: 100%;
+  max-width: 800px;
+}
+
+.imagen1 {
+  width: 700px;
+  height: 540px;
+  padding: 15px;
+  border: #f9f5f0 solid;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.imagen2 img {
+  width: 100%;
+  max-width: 800px;
+}
+
+.imagen2 {
+  width: 700px;
+  height: 540px;
+  padding: 15px;
+  border: #f9f5f0 solid;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.imagen3 img {
+  width: 100%;
+  max-width: 800px;
+}
+
+.imagen3 {
+  width: 700px;
+  height: 540px;
+  padding: 15px;
+  border: #f9f5f0 solid;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.imagen4 img {
+  width: 100%;
+  max-width: 700px;
+}
+
+.imagen4 {
+  width: 700px;
+  height: 540px;
+  padding: 15px;
+  margin: 20px;
+  border: #f9f5f0 solid;
+  display: flex;
+  flex-direction: column;
+}
+
+.span1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #303030;
+}
+.span1 span {
+  font-family: "Hitmarker Condensed Black", Arial;
+}
+
+.imagen1 p,
+.imagen2 p,
+.imagen3 p,
+.imagen4 p {
+  font-family: "Hitmarker Text Regular", Arial;
+  padding: 10px;
+}
+
+.footer {
+  padding: 20px;
+}
+.footer-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.categoria {
+  display: flex;
+  flex-direction: column;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  color: #ffffff;
+  background-color: #ffffff;
+}
+
+.social span {
+  font-family: "Hitmarker Text Regular", Arial;
+  color: #181818;
+  border-top: #151515 solid;
+  align-self: center;
+  margin: 5px;
+}
+
+.categoria span {
+  font-family: "Hitmarker Text Regular", Arial;
+  color: #151515;
+  border-top: #151515 solid;
+  align-self: center;
+  margin: 5px;
+}
+
+.social a {
+  font-family: "Hitmarker Text Regular", Arial;
+  color: #151515;
+  margin: 5px;
+  align-self: center;
+}
+
+.categoria a {
+  font-family: "Hitmarker Text Regular", Arial;
+  color: #151515;
+  margin: 5px;
+  align-self: center;
+}
+
+.copy span {
+  font-family: "Hitmarker Text Regular", Arial;
+  border-top: #151515 solid;
+  margin: 5px;
+  color: #151515;
+}
+
+.copy {
+  margin-top: 60px;
+}
+
+.logo2 {
+  margin-top: 40px;
+}
+
+.logo2 img {
+  width: 100%;
+  max-width: 70px;
+}
+
+.fondo img {
+  width: 100%;
+}
+
+.fondo {
+  width: 1000px;
+  margin-inline: auto;
+  padding: 16px;
+}
+
+.fondo span {
+  font-family: "Hitmarker Text Regular", Arial;
+  margin-top: 40px;
+  padding: 2px;
+  color: #ee6109f3;
+  background-color: #303030;
+}
+
+.contenido1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+video {
+  padding-top: 10px;
+  width: 1000px;
+  border-top: #ffffff solid;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.titulo3 h2 {
+  text-align: center;
+  width: 1200px;
+  font-family: "Hitmarker Condensed bold", Arial;
+  font-weight: 900;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 2rem;
+  line-height: 3.25rem;
+  margin: 50px;
+  padding-left: 40px;
+  color: #ffffff;
+}
+
+.contenido1 p {
+  font-family: "Hitmarker Text Regular", Arial;
+  font-size: 19px;
+  margin: 5px;
+  width: 1000px;
+}
+
+.titulo4 h2 {
+  border-top: #ffffff solid;
+  text-align: center;
+  width: 500px;
+  font-family: "Hitmarker Condensed bold", Arial;
+  font-weight: 900;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 2rem;
+  line-height: 3.25rem;
+  margin: 50px;
+  padding-left: 40px;
+  color: #ffffff;
+}
+
+.sub span {
+  font-family: "Hitmarker Text Regular", Arial;
+  font-size: 20px;
+}
